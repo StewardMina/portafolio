@@ -21,7 +21,7 @@ const projects = [
     description: 'tienda virtual de guitarras.',
     tags: ['React', 'CSS', 'html', 'JavaScript'],
     github: 'https://github.com/StewardMina/GuitarLa',
-    demo: 'https://portafolio-one-mu-84.vercel.app/',
+    demo: 'https://vercel.com/puerto-boys/guitar-la',
   },
 ];
 
