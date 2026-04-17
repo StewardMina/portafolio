@@ -1,0 +1,78 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.hero-greeting {
+  font-family: var(--font-mono);
+  color: var(--accent);
+  font-size: 1rem;
+  margin-bottom: 16px;
+  opacity: 0;
+  animation: fadeUp 0.5s ease forwards 0.1s;
+}
+
+.hero-name {
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  font-weight: 800;
+  color: var(--text-primary);
+  line-height: 1.1;
+  opacity: 0;
+  animation: fadeUp 0.5s ease forwards 0.2s;
+}
+
+.hero-title {
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  font-weight: 700;
+  color: var(--text-secondary);
+  line-height: 1.1;
+  margin-top: 8px;
+  opacity: 0;
+  animation: fadeUp 0.5s ease forwards 0.3s;
+}
+
+.hero-description {
+  max-width: 520px;
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin-top: 24px;
+  opacity: 0;
+  animation: fadeUp 0.5s ease forwards 0.4s;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 16px;
+  margin-top: 40px;
+  opacity: 0;
+  animation: fadeUp 0.5s ease forwards 0.5s;
+}
+
+.btn-primary {
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  padding: 14px 28px;
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  cursor: pointer;
+  background: transparent;
+  transition: var(--transition);
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-dim);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
