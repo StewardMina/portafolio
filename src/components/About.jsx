@@ -1,3 +1,4 @@
+import foto from '../assets/images/foto.jpg';
 import '../styles/About.css';
 
 function About() {
@@ -21,7 +22,7 @@ function About() {
           
           </div>
           <div className="about-image-wrapper">
-            <div className="about-placeholder">tu foto aquí</div>
+            <img src={foto} alt="Steward Mina Cosme" />
           </div>
         </div>
       </div>
