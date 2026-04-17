@@ -1,4 +1,4 @@
-import foto from '../assets/images/foto.jpg';
+import foto from '../assets/images/foto.jpg.png';
 import '../styles/About.css';
 
 function About() {
