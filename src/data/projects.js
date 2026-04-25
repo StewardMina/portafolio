@@ -4,8 +4,8 @@ const projects = [
     title: 'Proyecto 1',
     description: 'proyecto enfocado al acoso escolar,con reportes, informacion revision de casos etc.',
     tags: ['React', 'Node.js', 'MYSQL', 'Express','Vue'],
-    github: 'https://github.com/StewardMina/Proyecto_C.E.R.O',
-    demo: 'https://portafolio-one-mu-84.vercel.app/',
+    github: 'https://github.com/StewardMina/exam-grader',
+    demo: 'https://exam-grader-dun.vercel.app//',
   },
   {
     id: 2,
